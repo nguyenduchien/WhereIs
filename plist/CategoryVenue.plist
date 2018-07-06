@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Food</key>
+	<string>4d4b7105d754a06374d81259</string>
+	<key>Coffee</key>
+	<string>4bf58dd8d48988d16d941735</string>
+	<key>Nightlife</key>
+	<string>4d4b7105d754a06376d81259</string>
+	<key>ATM</key>
+	<string>4bf58dd8d48988d10a951735</string>
+	<key>Gas Station</key>
+	<string>4bf58dd8d48988d113951735</string>
+	<key>Pharmacy</key>
+	<string>4bf58dd8d48988d10f951735</string>
+	<key>Grocery</key>
+	<string>4bf58dd8d48988d118951735</string>
+</dict>
+</plist>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="30N-pK-Ypk" customClass="FeedbackCell" customModule="MyApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="30N-pK-Ypk" id="ebv-cx-cGR">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar8" translatesAutoresizingMaskIntoConstraints="NO" id="Dlz-oA-qzC">
+                        <rect key="frame" x="10" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Dlz-oA-qzC" secondAttribute="height" id="aKN-xP-dj4"/>
+                            <constraint firstAttribute="width" constant="50" id="bMD-Li-ogZ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="Amy Adams" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Gw-n4-5dm">
+                        <rect key="frame" x="70" y="5" width="95" height="0.0"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18L-aW-4VO">
+                        <rect key="frame" x="70" y="5" width="295" height="139.5"/>
+                        <string key="text">With its medieval palazzos, richly decorated gondolas, hundreds of bridges, canals, and unforgettable romantic atmosphere, Venice is definitely a bucket list destination. Make sure you read this post if planning a trip to Venice with young kids.</string>
+                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                        <color key="textColor" red="0.059801674763134686" green="0.37807344543147203" blue="0.299325306755859" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4Gw-n4-5dm" secondAttribute="trailing" constant="10" id="ACK-0W-jU1"/>
+                    <constraint firstItem="18L-aW-4VO" firstAttribute="top" secondItem="4Gw-n4-5dm" secondAttribute="bottom" id="CM3-9O-4vz"/>
+                    <constraint firstItem="18L-aW-4VO" firstAttribute="leading" secondItem="Dlz-oA-qzC" secondAttribute="trailing" constant="10" id="EuZ-Cf-wqB"/>
+                    <constraint firstAttribute="bottom" secondItem="18L-aW-4VO" secondAttribute="bottom" constant="5" id="FmI-bk-bFY"/>
+                    <constraint firstAttribute="trailing" secondItem="18L-aW-4VO" secondAttribute="trailing" constant="10" id="GkJ-8i-Pec"/>
+                    <constraint firstItem="Dlz-oA-qzC" firstAttribute="top" secondItem="ebv-cx-cGR" secondAttribute="top" constant="5" id="HQb-Q9-1Wx"/>
+                    <constraint firstItem="4Gw-n4-5dm" firstAttribute="top" secondItem="ebv-cx-cGR" secondAttribute="top" constant="5" id="YU2-jm-olh"/>
+                    <constraint firstItem="4Gw-n4-5dm" firstAttribute="leading" secondItem="Dlz-oA-qzC" secondAttribute="trailing" constant="10" id="ZFa-cO-sYh"/>
+                    <constraint firstItem="Dlz-oA-qzC" firstAttribute="leading" secondItem="ebv-cx-cGR" secondAttribute="leading" constant="10" id="uOe-cC-Yxu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="avatarImageView" destination="Dlz-oA-qzC" id="tKT-I5-bRH"/>
+                <outlet property="commentLbl" destination="18L-aW-4VO" id="nCm-mD-jTe"/>
+                <outlet property="usernameLbl" destination="4Gw-n4-5dm" id="IPV-fR-sYZ"/>
+            </connections>
+            <point key="canvasLocation" x="88.5" y="-242"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avatar8" width="900" height="750"/>
+    </resources>
+</document>

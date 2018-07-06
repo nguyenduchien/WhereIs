@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - IQKeyboardManager (6.0.3)
+  - ObjectMapper (3.1.0)
+  - Realm (3.6.0):
+    - Realm/Headers (= 3.6.0)
+  - Realm/Headers (3.6.0)
+  - RealmSwift (3.6.0):
+    - Realm (= 3.6.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SwifterSwift (4.3.0):
+    - SwifterSwift/AppKit (= 4.3.0)
+    - SwifterSwift/CoreGraphics (= 4.3.0)
+    - SwifterSwift/CoreLocation (= 4.3.0)
+    - SwifterSwift/Foundation (= 4.3.0)
+    - SwifterSwift/MapKit (= 4.3.0)
+    - SwifterSwift/SwiftStdlib (= 4.3.0)
+    - SwifterSwift/UIKit (= 4.3.0)
+  - SwifterSwift/AppKit (4.3.0)
+  - SwifterSwift/CoreGraphics (4.3.0)
+  - SwifterSwift/CoreLocation (4.3.0)
+  - SwifterSwift/Foundation (4.3.0)
+  - SwifterSwift/MapKit (4.3.0)
+  - SwifterSwift/SwiftStdlib (4.3.0)
+  - SwifterSwift/UIKit (4.3.0)
+  - SwiftLint (0.18.1)
+  - SwiftUtils (4.0.1)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (~> 5.0)
+  - IQKeyboardManager
+  - RealmSwift
+  - SDWebImage
+  - SwifterSwift
+  - SwiftLint (~> 0.18.1)
+  - SwiftUtils (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Realm: 08b464b462d4f31bbd4ba5f5a1c8722ef0a700b7
+  RealmSwift: 973e1499c44ab571f894c2c908e2db450be280c3
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SwifterSwift: f3fce2b9fc5b9d8fda6eec33825e5243c60aebba
+  SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
+  SwiftUtils: b009d391fb2e285392f114238f8b55d2750b80f0
+
+PODFILE CHECKSUM: 14aed3aa218688b8f6574669d1efa49258b39c09
+
+COCOAPODS: 1.4.0

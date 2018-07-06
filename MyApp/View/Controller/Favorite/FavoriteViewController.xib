@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoriteViewController" customModule="MyApp" customModuleProvider="target">
+            <connections>
+                <outlet property="favoritetableView" destination="cbX-qa-zcf" id="Ujx-M5-rLp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="9oE-bO-4GT">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cbX-qa-zcf">
+                    <rect key="frame" x="0.0" y="80" width="375" height="587"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="separatorColor" red="0.05980167476" green="0.37807344539999999" blue="0.29932530680000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cbX-qa-zcf" secondAttribute="trailing" id="4Ww-CZ-Kpk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9oE-bO-4GT" secondAttribute="bottom" id="C7E-xa-pRU"/>
+                <constraint firstItem="9oE-bO-4GT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="YfZ-y8-bqq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9oE-bO-4GT" secondAttribute="trailing" id="ZsF-Kt-z2a"/>
+                <constraint firstItem="cbX-qa-zcf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cXJ-Jx-l7w"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="cbX-qa-zcf" secondAttribute="bottom" id="dR4-0R-0Ij"/>
+                <constraint firstItem="cbX-qa-zcf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="feI-TW-Azz"/>
+                <constraint firstItem="9oE-bO-4GT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rI5-Ey-4vv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg" width="321" height="570"/>
+    </resources>
+</document>
