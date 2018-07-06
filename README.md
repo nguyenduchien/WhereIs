@@ -2,16 +2,16 @@ Table of Contents
 -----------------
 My First Project!
 "If you don't know were to go, go WhereIs."
-- [Overview & Features](#overview--features)
-- [Prerequisites](#prerequisites)
-- [Endpoints Foursquare API](#endpoints-foursquare-api)
-- [Project Structure](#project-structure)
-- [Workspace Preparing](#workspace-preparing)
-- [Deployment to iOS device](#deployment-to-ios-device)
-- [Obtaining the Defines](#obtaining-the-defines)
-- [List of Frameworks](#list-of-frameworks)
-- [Useful Tools and Resources](#useful-tools-and-resources) <!-- - [FAQ](#faq) -->
-- [License](#license) 
+* - [Overview & Features](#overview--features)
+* - [Prerequisites](#prerequisites)
+* - [Endpoints Foursquare API](#endpoints-foursquare-api)
+* - [Project Structure](#project-structure)
+* - [Workspace Preparing](#workspace-preparing)
+* - [Deployment to iOS device](#deployment-to-ios-device)
+* - [Obtaining the Defines](#obtaining-the-defines)
+* - [List of Frameworks](#list-of-frameworks)
+* - [Useful Tools and Resources](#useful-tools-and-resources) <!-- - [FAQ](#faq) -->
+* - [License](#license) 
 
 ## Overview & Features
 
