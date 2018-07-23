@@ -2,73 +2,41 @@ Table of Contents
 -----------------
 My First Project!
 "If you don't know were to go, go WhereIs."
-
-* - [Overview & Features](#overview--features)
-
-* - [Prerequisites](#prerequisites)
-
-* - [Endpoints Foursquare API](#endpoints-foursquare-api)
-
-* - [Project Structure](#project-structure)
-
-* - [Workspace Preparing](#workspace-preparing)
-
-* - [Deployment to iOS device](#deployment-to-ios-device)
-
-* - [Obtaining the Defines](#obtaining-the-defines)
-
-* - [List of Frameworks](#list-of-frameworks)
-
-* - [Useful Tools and Resources](#useful-tools-and-resources)
-
-* - [License](#license) 
+- [Overview & Features](#overview--features)
+- [Prerequisites](#prerequisites)
+- [Endpoints Foursquare API](#endpoints-foursquare-api)
+- [Project Structure](#project-structure)
+- [Workspace Preparing](#workspace-preparing)
+- [Deployment to iOS device](#deployment-to-ios-device)
+- [Obtaining the Defines](#obtaining-the-defines)
+- [List of Frameworks](#list-of-frameworks)
+- [Useful Tools and Resources](#useful-tools-and-resources) <!-- - [FAQ](#faq) -->
+- [License](#license) 
 
 ## Overview & Features
 
 WhereIs is an app that lets you search and browse for nearby venues.
-
- Use FourSquare API to access venues
-
+1. Use FourSquare API to access venues
 * User can search by location 
-
 * User can search by category
-
 * User can search by query e.g Coffee 
-
 * Reload venue depends on location from center of screen
-
 * Toggle between a map view of venues and a list view of venues
-
- Integrate MapKit to show live updates on map based on search results 
-
+2. Integrate MapKit to show live updates on map based on search results 
 * Annotations update on map
-
 * Details about the venue on Annotations 
-
 * Directions to selected venue using apple maps
-
- Use CoreLocation to track user's Location 
-
+3. Use CoreLocation to track user's Location 
 * Authorization to allow location services 
-
- Display detailed information about certain venues 
-
+4. Display detailed information about certain venues 
 * Images of venues
-
 * Adress/likes/ratings/distance/checkin of venues
-
 * Directions to venue 
-
 * Tips of venue 
-
- Custom Venue Favorite
-
+5. Custom Venue Favorite
 * Users can create favorite of certain venues to view again later ( can delete any venue or all list )
-
- Option searching of venue
-
+6. Option searching of venue
 * Users can Option more when searching ( Radius, Limit and City of venue)
-
 
 ## Prerequisites
 
@@ -129,7 +97,6 @@ CocoaPods is a dependency manager for Cocoa projects. You can install it with th
 ```sh
 sudo gem install cocoapods
 ```
-
 
 ```sh
 gem install bundler
